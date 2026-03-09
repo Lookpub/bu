@@ -30,7 +30,7 @@
 
 
 
-<!-- hello-->
+<!-- hello -->
 
 <div class="ar-section">
 
@@ -39,34 +39,23 @@
 <div class="sub-title">hello</div>
 
 <model-viewer id="model1"
-
      src="hello.glb"
-
      ios-src="hello.usdz"
-
      ar
-
      ar-modes="scene-viewer webxr quick-look"
-
      camera-controls
-
      autoplay
-
+     animation-name="*"
      auto-rotate
-
      shadow-intensity="1"
-
      shadow-softness="1"
-
      environment-image="neutral.hdr"
-
      loading="eager"
-
      reveal="auto"
-
      style="width: 100%; height: 400px;">
-
 </model-viewer>
+
+</div>
 
 <button class="ar-button" onclick="triggerAR('model1')">Play AR</button>
 
